@@ -1,0 +1,156 @@
+body{
+    margin:0;
+
+}
+
+a{
+    list-style:none;
+    text-decoration : none;
+    color:white
+}
+
+
+.navbar{
+    background-color:#333;
+    display:flex;
+    justify-content:space-between;
+    flex-wrap:wrap;
+    padding:0px 10px;
+    align-items: baseline;
+}
+
+
+
+.logo span{
+    color:orange;
+}
+
+.navbar ul {
+    list-style:none;
+    display:flex;
+    flex-direction:row-reverse
+}
+.navbar ul a{
+    padding:1rem;
+}
+
+.navbar ul a:hover{
+    background-color:orange;
+    border-radius:5px
+}
+
+.container{
+    text-align:center;
+    padding-top :10rem;
+    background-image: url('last.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+    color:white;
+    flex-wrap:wrap
+
+}
+.btn{
+    padding:5px 10px;
+    background-color:orange;
+    color:white;
+    border-radius:5px
+}
+
+.btn:hover{
+    background-color:white;
+    color:orange;
+
+}
+
+
+.items{
+    display:flex;
+    align-items: baseline;
+    text-align:right;
+    background-color:#ccc;
+    justify-content:space-evenly;
+    padding: 2rem;
+    flex-wrap:wrap;
+
+}
+
+.items i{
+    background-color:orange;
+    border-radius:30px
+}
+
+.main{
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction:row-reverse;
+    justify-content:space-between
+
+}
+
+
+.right{
+    text-align:right;
+    background-color:#333;
+    padding: 2rem;
+    color:white;
+    flex:30%
+}
+
+
+.right ul{
+    list-style:none;
+    width="50%"
+
+
+}
+
+.pers{
+    background-color: #ccc;
+    text-align:center;
+    padding:1rem
+}
+
+
+.personal{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-evenly;
+    padding:2rem
+}
+
+.personal i {
+    border-radius:50px;
+    background-color: white;
+    padding :1rem
+}
+
+.form{
+    display:flex
+    flex-wrap: wrap-reverse;
+    justify-content:flex-end;
+    text-align:right;
+    padding:5rem
+
+}
+
+.bt{
+    background-color:orange;
+    color:white;
+    border-radius:5px;
+    padding: 5px 10px
+
+}
+.footer{
+    display:flex;
+    background :#333;
+    padding:1rem;
+    justify-content:space-between;
+    align-items: baseline;
+}
+
+.social{
+    padding : 1rem;
+    align-items: baseline;
+
+}
